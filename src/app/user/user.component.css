@@ -2,15 +2,18 @@ button {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.35rem 0.5rem;
-  background-color: #433352;
-  color: #c3b3d1;
+  padding: 1rem 0.5rem;
+  background-color: #3c2954; 
+  color: #f2e9ff; 
   border: none;
   font: inherit;
   cursor: pointer;
   width: 100%;
   min-width: 10rem;
   text-align: left;
+  border-radius: 6px; 
+  box-shadow: 12px 5px 12px rgba(0, 0, 0, 0.6); 
+  transition: all 0.3s ease-in-out; 
 }
 
 button:hover,
@@ -18,6 +21,8 @@ button:active,
 .active {
   background-color: #9965dd;
   color: #150722;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.35);
+  transform: translateY(-2px);
 }
 
 img {
