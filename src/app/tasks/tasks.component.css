@@ -30,15 +30,19 @@ menu button {
   font: inherit;
   cursor: pointer;
   background-color: #9965dd;
-  border-radius: 4px;
+  border-radius: 6px;
   border: none;
   padding: 0.35rem 0.8rem;
   font-size: 0.9rem;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3); 
+  transition: all 0.3s ease-in-out; 
 }
 
 menu button:hover,
 menu button:active {
-  background-color: #a565dd
+  background-color: #a565dd;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.35);
+  transform: translateY(-2px);
 }
 
 ul {
